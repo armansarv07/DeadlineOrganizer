@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C5151BE2348E32F9DDAC42 /* Pods_Deadline_organizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A769DAF03CE82D0AF81C38 /* Pods_Deadline_organizer.framework */; };
+		C20E2E99271BD18800573634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E2E98271BD18800573634 /* AppDelegate.swift */; };
+		C20E2E9B271BD18800573634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E2E9A271BD18800573634 /* SceneDelegate.swift */; };
+		C20E2EA0271BD18800573634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20E2E9E271BD18800573634 /* Main.storyboard */; };
+		C20E2EA2271BD18900573634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20E2EA1271BD18900573634 /* Assets.xcassets */; };
+		C20E2EA5271BD18900573634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20E2EA3271BD18900573634 /* LaunchScreen.storyboard */; };
+		C24AABEC271D37F5001534F9 /* MainTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24AABEB271D37F5001534F9 /* MainTableVC.swift */; };
+		C24AABEE271D3831001534F9 /* NewItemTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24AABED271D3831001534F9 /* NewItemTableVC.swift */; };
+		C24AABF0271D5653001534F9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24AABEF271D5653001534F9 /* DatabaseManager.swift */; };
+		C24AABF2271D5670001534F9 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24AABF1271D5670001534F9 /* TaskModel.swift */; };
+		C24AABF4271D576B001534F9 /* CustomTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24AABF3271D576B001534F9 /* CustomTableVC.swift */; };
+		C2A80020272F97AA007A3F50 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C2A8001F272F97AA007A3F50 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ADE6D34D15071BDF6CA8F9E /* Pods-Deadline organizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deadline organizer.release.xcconfig"; path = "Target Support Files/Pods-Deadline organizer/Pods-Deadline organizer.release.xcconfig"; sourceTree = "<group>"; };
+		B5A769DAF03CE82D0AF81C38 /* Pods_Deadline_organizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deadline_organizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20E2E95271BD18800573634 /* Deadline organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deadline organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20E2E98271BD18800573634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C20E2E9A271BD18800573634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C20E2E9F271BD18800573634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C20E2EA1271BD18900573634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20E2EA4271BD18900573634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C20E2EA6271BD18900573634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24AABEB271D37F5001534F9 /* MainTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableVC.swift; sourceTree = "<group>"; };
+		C24AABED271D3831001534F9 /* NewItemTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemTableVC.swift; sourceTree = "<group>"; };
+		C24AABEF271D5653001534F9 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		C24AABF1271D5670001534F9 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		C24AABF3271D576B001534F9 /* CustomTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableVC.swift; sourceTree = "<group>"; };
+		C2A8001F272F97AA007A3F50 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E6C6E41E81C084C264D4FC65 /* Pods-Deadline organizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deadline organizer.debug.xcconfig"; path = "Target Support Files/Pods-Deadline organizer/Pods-Deadline organizer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C20E2E92271BD18800573634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C5151BE2348E32F9DDAC42 /* Pods_Deadline_organizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94A9CBC45DE13D40425DBBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6C6E41E81C084C264D4FC65 /* Pods-Deadline organizer.debug.xcconfig */,
+				0ADE6D34D15071BDF6CA8F9E /* Pods-Deadline organizer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C20E2E8C271BD18800573634 = {
+			isa = PBXGroup;
+			children = (
+				C2A8001F272F97AA007A3F50 /* .gitignore */,
+				C20E2E97271BD18800573634 /* Deadline organizer */,
+				C20E2E96271BD18800573634 /* Products */,
+				A94A9CBC45DE13D40425DBBC /* Pods */,
+				DEA873292403CDBD0A3E2C90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C20E2E96271BD18800573634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20E2E95271BD18800573634 /* Deadline organizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C20E2E97271BD18800573634 /* Deadline organizer */ = {
+			isa = PBXGroup;
+			children = (
+				C20E2E98271BD18800573634 /* AppDelegate.swift */,
+				C20E2E9A271BD18800573634 /* SceneDelegate.swift */,
+				C24AABEF271D5653001534F9 /* DatabaseManager.swift */,
+				C24AABF3271D576B001534F9 /* CustomTableVC.swift */,
+				C24AABEB271D37F5001534F9 /* MainTableVC.swift */,
+				C24AABED271D3831001534F9 /* NewItemTableVC.swift */,
+				C24AABF1271D5670001534F9 /* TaskModel.swift */,
+				C20E2E9E271BD18800573634 /* Main.storyboard */,
+				C20E2EA1271BD18900573634 /* Assets.xcassets */,
+				C20E2EA3271BD18900573634 /* LaunchScreen.storyboard */,
+				C20E2EA6271BD18900573634 /* Info.plist */,
+			);
+			path = "Deadline organizer";
+			sourceTree = "<group>";
+		};
+		DEA873292403CDBD0A3E2C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5A769DAF03CE82D0AF81C38 /* Pods_Deadline_organizer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20E2E94271BD18800573634 /* Deadline organizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20E2EA9271BD18900573634 /* Build configuration list for PBXNativeTarget "Deadline organizer" */;
+			buildPhases = (
+				D6651E837528F53A356B5E7C /* [CP] Check Pods Manifest.lock */,
+				C20E2E91271BD18800573634 /* Sources */,
+				C20E2E92271BD18800573634 /* Frameworks */,
+				C20E2E93271BD18800573634 /* Resources */,
+				6B6786BB530A1EE5B669A10E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deadline organizer";
+			productName = "Deadline organizer";
+			productReference = C20E2E95271BD18800573634 /* Deadline organizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C20E2E8D271BD18800573634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C20E2E94271BD18800573634 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = C20E2E90271BD18800573634 /* Build configuration list for PBXProject "Deadline organizer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C20E2E8C271BD18800573634;
+			productRefGroup = C20E2E96271BD18800573634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C20E2E94271BD18800573634 /* Deadline organizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20E2E93271BD18800573634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A80020272F97AA007A3F50 /* .gitignore in Resources */,
+				C20E2EA5271BD18900573634 /* LaunchScreen.storyboard in Resources */,
+				C20E2EA2271BD18900573634 /* Assets.xcassets in Resources */,
+				C20E2EA0271BD18800573634 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B6786BB530A1EE5B669A10E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deadline organizer/Pods-Deadline organizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deadline organizer/Pods-Deadline organizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deadline organizer/Pods-Deadline organizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6651E837528F53A356B5E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deadline organizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20E2E91271BD18800573634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24AABF4271D576B001534F9 /* CustomTableVC.swift in Sources */,
+				C24AABF2271D5670001534F9 /* TaskModel.swift in Sources */,
+				C20E2E99271BD18800573634 /* AppDelegate.swift in Sources */,
+				C24AABEE271D3831001534F9 /* NewItemTableVC.swift in Sources */,
+				C24AABF0271D5653001534F9 /* DatabaseManager.swift in Sources */,
+				C24AABEC271D37F5001534F9 /* MainTableVC.swift in Sources */,
+				C20E2E9B271BD18800573634 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C20E2E9E271BD18800573634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20E2E9F271BD18800573634 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C20E2EA3271BD18900573634 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20E2EA4271BD18900573634 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C20E2EA7271BD18900573634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C20E2EA8271BD18900573634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C20E2EAA271BD18900573634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C6E41E81C084C264D4FC65 /* Pods-Deadline organizer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC89CV545Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deadline organizer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Deadline organizer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armanSarvardin.Deadline-organizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C20E2EAB271BD18900573634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADE6D34D15071BDF6CA8F9E /* Pods-Deadline organizer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GC89CV545Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deadline organizer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Deadline organizer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armanSarvardin.Deadline-organizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20E2E90271BD18800573634 /* Build configuration list for PBXProject "Deadline organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20E2EA7271BD18900573634 /* Debug */,
+				C20E2EA8271BD18900573634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20E2EA9271BD18900573634 /* Build configuration list for PBXNativeTarget "Deadline organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20E2EAA271BD18900573634 /* Debug */,
+				C20E2EAB271BD18900573634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C20E2E8D271BD18800573634 /* Project object */;
+}
